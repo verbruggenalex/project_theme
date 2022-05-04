@@ -1,0 +1,27 @@
+// Base
+// -----------------------------------------------------------------------------
+@import "bootstrap";
+
+// Parent Drupal related components ( changed path because of symlinks)
+// -----------------------------------------------------------------------------
+@import "../../../../../web/themes/contrib/radix/src/components/navbar/navbar";
+@import "../../../../../web/themes/contrib/radix/src/components/forum/forum";
+@import "../../../../../web/themes/contrib/radix/src/components/offcanvas/offcanvas";
+
+// Overriding Bootstrap components
+// -----------------------------------------------------------------------------
+@import "./base/elements";
+@import "./base/functions";
+@import "./base/helpers";
+@import "./base/typography";
+
+// Other
+// -----------------------------------------------------------------------------
+.toolbar .toolbar-bar .toolbar-tab > .toolbar-item {
+  font-weight: normal;
+}
+
+.dropdown-menu {
+  width: 100%;
+  transform: translate(0, 38px) !important;
+}

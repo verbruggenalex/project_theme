@@ -1,0 +1,22 @@
+{
+    "name": "verbruggenalex/project_theme",
+    "type": "drupal-custom-theme",
+    "description": "Custom theme for project",
+    "keywords": ["Drupal"],
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "local": {
+            "type": "path",
+            "url": "../../*/*"
+        }
+    },
+    "require": {
+        "drupal/components": "^3.0@beta",
+        "drupal/radix": "^5.0@RC"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
